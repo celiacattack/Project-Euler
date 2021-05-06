@@ -8,7 +8,7 @@ count = 0
 def check_logic():
     if n % 3 == 0 or n % 5 == 0:
         print(str(n))
-
+        
 def check_divisibility():
     global count
     if n % 3 == 0 or n % 5 == 0:
