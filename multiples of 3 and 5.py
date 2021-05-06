@@ -4,8 +4,6 @@
 n = 0
 count = 0
 
-
-
 #logic to say whether n is divisible by 3 or 5, if yes then print n
 def check_logic():
     if n % 3 == 0 or n % 5 == 0:
