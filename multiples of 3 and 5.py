@@ -11,6 +11,7 @@ def check_logic():
         count = count + n 
         return count
 
+#asking user what number to solve Euler problem for (default asks for under 1000, but works with anything)
 ask_number = int(input('what number would you like to solve for?: '))
 while n != ask_number:
     n = n+1
